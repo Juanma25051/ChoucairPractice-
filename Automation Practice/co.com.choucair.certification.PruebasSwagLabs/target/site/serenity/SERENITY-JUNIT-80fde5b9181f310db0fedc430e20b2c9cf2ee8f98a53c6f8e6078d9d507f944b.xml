@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="verify the correct operation of the login" skipped="0" tests="4" time="30.88" timestamp="2022-09-20 11:11:40"><testcase name="Enter the correct credentiales"/><testcase name="Enter User locked"><failure message="Expected net.serenitybdd.screenplay.QuestionSubject@4a3a2fd0&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected net.serenitybdd.screenplay.QuestionSubject@4a3a2fd0
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>Expected net.serenitybdd.screenplay.QuestionSubject@4a3a2fd0
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+stepdefinitions.AutomationSwagLabsStepDefinitions.aErrorSignIsDisplayedIndicatingThatTheStatusUserIsLockedOut(AutomationSwagLabsStepDefinitions.java:40)&#13;
+✽.a error sign is displayed indicating that the status user is locked out(src/test/resources/features/automationSwagLabsSite.feature:25)&#13;
+</system-err></testcase><testcase name="Enter the problem user"/><testcase name="Enter the problem u"/></testsuite>
